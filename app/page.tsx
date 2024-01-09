@@ -1,29 +1,31 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import github from '../public/Screenshot (6).png';
 import horiseon from '../public/Screenshot (10).png';
 import runbuddy from '../public/Screenshot (8).png';
 import choovie from '../public/Screenshot (33).png';
 
 export default function Home() {
+
   return (
     <main className="">
       <header>
         <h1>
-          <a className="title">Dil<span className="span">lin Hels</span>ley</a>
+          <Link href={"/"} className="title">Dil<span className="span">lin Hels</span>ley</Link>
         </h1>
       
         <nav>
           <ul>
               <li>
-                  <a href="index.html">Portfolio</a>
+                  <Link href="/">Portfolio</Link>
               </li>
 
               <li>
-                  <a href="bio.html">Bio</a>
+                  <Link href={"/bio"}>Bio</Link>
               </li>
 
               <li>
-                  <a href="#contact-info">Contact</a>
+                  <Link href="#contact-info">Contact</Link>
               </li>
           </ul>
         </nav>
@@ -39,27 +41,29 @@ export default function Home() {
           priority
         />
 
+
+
 <div className="portfolio">
         <h1>PORTFOLIO</h1>
 
         <article className="application">
           <h2>My Github Profile</h2>
-          <a href="https://github.com/dillin92"><Image src={github} alt="" width={999} height={999} priority/></a>
+          <a href="https://github.com/dillin92"><Image src={github} alt="Github page" width={999} height={999} priority/></a>
         </article>
 
         <article className='application'>
           <h2>Choovie Application</h2>
-          <a href="https://kmelissasantos.github.io/Choovie/"><Image src={choovie} alt="choovie application" width={99} height={99}/></a>
+          <a href="https://kmelissasantos.github.io/Choovie/"><Image src={choovie} alt="choovie application" width={999} height={999}/></a>
         </article>
 
         <article className="application">
           <h2>Run Buddy Website</h2>
-          <a href="https://dillin92.github.io/run-buddy/"><Image src={runbuddy} alt="run buddy application" width={99} height={99}/></a>
+          <a href="https://dillin92.github.io/run-buddy/"><Image src={runbuddy} alt="run buddy application" width={999} height={999}/></a>
         </article>
 
         <article className="application">
           <h2>Horiseon Website</h2>
-          <a href="https://dillin92.github.io/horiseon-Dillin-Helsley/"><Image src={horiseon} alt="horiseon website"  width={99} height={99}/></a>
+          <a href="https://dillin92.github.io/horiseon-Dillin-Helsley/"><Image src={horiseon} alt="horiseon website"  width={999} height={999}/></a>
         </article>
 
         

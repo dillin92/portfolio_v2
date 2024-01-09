@@ -195,3 +195,105 @@ img {
     width: 100%;
   }
 }
+
+
+/* BIO */
+.biohero {
+  background-image: url(../public/dillyillyin.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: inherit;
+  position: relative;
+  padding: 20px;
+}
+
+/* BIO */
+.bio {
+  display: inline-flex;
+  background-color: rgb(128, 128, 128, 0.5);
+}
+.bio h2,
+.bio p {
+  text-align: center;
+}
+
+/* Experience */
+.experience {
+  background-color: rgb(128, 128, 128, 0.5);
+  display: inline-block;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-right: 120px;
+  padding: 20px;
+  margin: 0 0 0 10px;
+}
+
+.experience h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.experience a img {
+  border-radius: 28%;
+  position: static;
+  box-shadow: 0 0 10px 5px white;
+}
+
+.experience a {
+  display: inline;
+  position: relative;
+  margin: 20px;
+  padding: 35px;
+}
+
+.experience a img:hover {
+  background-color: rgb(50, 205, 50, 0.45);
+}
+
+/* JOBS */
+
+.jobs {
+  background-color: grey;
+  float: right;
+  height: 981px;
+  width: 763px;
+}
+
+.jobs h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.jobs h3 {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.jobs h4 {
+  text-align: center;
+}
+
+.jobs p {
+  text-align: center;
+}
+
+.jobs img {
+  height: 600px;
+  border-radius: 15%;
+  margin-left: 135px;
+}
+
+footer {
+  display: inline-flex;
+}
+
+.thanks h2 {
+  float: right;
+  height: 25px;
+}
+
+.sincerely {
+  margin-bottom: 45px;
+}
