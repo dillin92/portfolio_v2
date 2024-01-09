@@ -49,22 +49,22 @@ export default function Home() {
 
         <article className="application">
           <h2>My Github Profile</h2>
-          <a href="https://github.com/dillin92"><Image src="/public\Screenshot (6).png" alt="screenshot of Dillin Helsley's github profile" width={999} height={999} priority/></a>
+          <a href="https://github.com/dillin92"><Image src="" alt="screenshot of Dillin Helsley's github profile" width={50} height={50} priority/></a>
         </article>
 
         <article>
           <h2>Choovie Application</h2>
-          <a href="https://kmelissasantos.github.io/Choovie/"><img src=""></img></a>
+          <a href="https://kmelissasantos.github.io/Choovie/"><Image src="/public/Screenshot(33).png" alt="choovie application" width={99} height={99}/></a>
         </article>
 
-        <article className="application2">
+        <article className="application">
           <h2>Run Buddy Website</h2>
-          <a href="https://dillin92.github.io/run-buddy/"><img src="./images/Screenshot (8).png"></img></a>
+          <a href="https://dillin92.github.io/run-buddy/"><Image src="/public/Screenshot(8).png" alt="run buddy application" width={99} height={99}/></a>
         </article>
 
         <article className="application">
           <h2>Horiseon Website</h2>
-          <a href="https://dillin92.github.io/horiseon-Dillin-Helsley/"><img src="./images/Screenshot (10).png"></img></a>
+          <a href="https://dillin92.github.io/horiseon-Dillin-Helsley/"><Image src="/public/Screenshot(10).png" alt="horiseon website"  width={99} height={99}/></a>
         </article>
 
         
@@ -77,9 +77,9 @@ export default function Home() {
           <h2>Contact Info</h2>
 
           <ul>
-            <li><strong>Email:</strong> <a href="#">dillin970@gmail.com</a></li>
-            <li><strong>Github:</strong> <a href="#">github.com/dillin92</a></li>
-            <li><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/in/dillin-helsley-821668208/</a></li>
+            <li><strong>Email:</strong> <a href="https://dillin970@gmail.com">dillin970@gmail.com</a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/dillin92">github.com/dillin92</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dillin-helsley-821668208/">https://www.linkedin.com/in/dillin-helsley-821668208/</a></li>
           </ul>
 
           </section>
