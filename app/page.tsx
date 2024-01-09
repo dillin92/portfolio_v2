@@ -1,14 +1,18 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import github from '../public/Screenshot (6).png';
+import horiseon from '../public/Screenshot (10).png';
+import runbuddy from '../public/Screenshot (8).png';
+import choovie from '../public/Screenshot (33).png';
 
 export default function Home() {
   return (
     <main className="">
       <header>
-      <h1>
+        <h1>
           <a className="title">Dil<span className="span">lin Hels</span>ley</a>
-      </h1>
+        </h1>
       
-      <nav>
+        <nav>
           <ul>
               <li>
                   <a href="index.html">Portfolio</a>
@@ -22,19 +26,10 @@ export default function Home() {
                   <a href="#contact-info">Contact</a>
               </li>
           </ul>
-      </nav>
+        </nav>
      </header>
 
-
      <section className='flexbox'>
-     <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-       
-        </div>
-
-        
-      </div>
-
       <Image
           className="hero"
           src="/shutterstock_671483350.jpg"
@@ -44,32 +39,31 @@ export default function Home() {
           priority
         />
 
-<section className="portfolio">
+<div className="portfolio">
         <h1>PORTFOLIO</h1>
 
         <article className="application">
           <h2>My Github Profile</h2>
-          <a href="https://github.com/dillin92"><Image src="" alt="screenshot of Dillin Helsley's github profile" width={50} height={50} priority/></a>
+          <a href="https://github.com/dillin92"><Image src={github} alt="" width={999} height={999} priority/></a>
         </article>
 
-        <article>
+        <article className='application'>
           <h2>Choovie Application</h2>
-          <a href="https://kmelissasantos.github.io/Choovie/"><Image src="/public/Screenshot(33).png" alt="choovie application" width={99} height={99}/></a>
+          <a href="https://kmelissasantos.github.io/Choovie/"><Image src={choovie} alt="choovie application" width={99} height={99}/></a>
         </article>
 
         <article className="application">
           <h2>Run Buddy Website</h2>
-          <a href="https://dillin92.github.io/run-buddy/"><Image src="/public/Screenshot(8).png" alt="run buddy application" width={99} height={99}/></a>
+          <a href="https://dillin92.github.io/run-buddy/"><Image src={runbuddy} alt="run buddy application" width={99} height={99}/></a>
         </article>
 
         <article className="application">
           <h2>Horiseon Website</h2>
-          <a href="https://dillin92.github.io/horiseon-Dillin-Helsley/"><Image src="/public/Screenshot(10).png" alt="horiseon website"  width={99} height={99}/></a>
+          <a href="https://dillin92.github.io/horiseon-Dillin-Helsley/"><Image src={horiseon} alt="horiseon website"  width={99} height={99}/></a>
         </article>
 
         
-      
-      </section> 
+      </div> 
      </section>
 
      <footer>

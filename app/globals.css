@@ -185,7 +185,7 @@ img {
 }
 
 .flexbox {
-  display: inline-flex;
+  display:flex;
 }
 /* MEDIA QUERIES */
 
