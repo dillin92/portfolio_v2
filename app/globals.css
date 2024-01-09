@@ -25,3 +25,164 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+title {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+  display: inline;
+}
+
+.span {
+  color: limegreen;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+/* start header */
+header {
+  background-color: rgb(104, 103, 103, 0.65);
+  padding: 35px;
+  position: sticky;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+  display: inline;
+  color: purple;
+}
+
+header nav {
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 20px;
+  font-size: 30px;
+}
+.span {
+  color: limegreen;
+}
+header nav a:hover {
+  background-color: rgb(128, 0, 128, 0.15);
+  border-radius: 25%;
+}
+
+/* start footer */
+footer {
+  background-color: rgb(104, 103, 103);
+  padding: 30px;
+  flex: 1 20%;
+}
+
+footer h2 {
+  display: inline;
+}
+
+.contact-info {
+  margin-top: 950px;
+  text-align: center;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.sincerely {
+  float: right;
+}
+
+/* end footer */
+
+/* HERO */
+.hero {
+  background-image: url(//public/shutterstock_671483350.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  background-color: rgb(104, 103, 103, 0.85);
+  flex: 1 80%;
+  text-align: center;
+}
+
+.portfolio h1 {
+  text-align: center;
+  padding: 50px;
+  margin-right: 130px;
+}
+
+.application {
+  text-align: center;
+  position: relative;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-right: 120px;
+  padding: 20px;
+}
+
+.portfolio a img {
+  border-radius: 28%;
+  position: static;
+  margin-right: 125px;
+  box-shadow: 0 0 10px 5px white;
+}
+
+.portfolio a {
+  display: inline;
+  position: relative;
+  margin: 20px;
+}
+
+.portfolio a img:hover {
+  background-color: rgb(50, 205, 50, 0.45);
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+  display: inline;
+}
+
+img {
+  height: 300px;
+  width: 550px;
+  padding: 25px;
+}
+
+.flexbox {
+  display: inline-flex;
+}
+/* MEDIA QUERIES */
+
+/* Phones */
+@media screen and (max-width: 980px) {
+  .contact-info {
+    width: 100%;
+  }
+}
