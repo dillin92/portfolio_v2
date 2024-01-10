@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import snhu from '../public/SNHU.png';
-import butler from '../public/butler.png';
+import snhu from '../../public/SNHU.png'
+import butler from '../../public/butler.png';
+import sal from '../../public/save-a-lot.jpg';
 import Link from 'next/link';
-
 
 export default function Bio() {
   return (
@@ -27,10 +27,23 @@ export default function Bio() {
               </li>
           </ul>
         </nav>
-     </header>
+   </header>
 
     <section className="biohero">
     </section>
+
+    <section className="bio">
+            <h2>About Dillin Helsley</h2>
+            <p>
+                Hello, My name is Dillin Helsley. Im 28 years old and I live in Muncie, Indiana. I have 3 beautiful kids and I am happily engaged with another baby on the way! I currently work for a grocery distribution center for Save-A-Lot grocery stores as an order selector. I am currently enrolled in Butler Universities Executive Coding Bootcamp. I am eagerly anticipating the day that I enter into the field of web development.
+                
+                 In my free time I love to play music, mainly guitar,vocals, and trumpet but I can also play banjo, violin, piano, tuba, and little bit of drums. I have been a performing artist for about 10 years now. I have organized and promoted music events. I have been on the radio locally and have performed with national acts. Music has given me many memorable experiences!
+            </p>         
+    </section>  
+
+    
+<div className='experience'>
+    
 
     <section className="experience">
                 <article>
@@ -53,8 +66,33 @@ export default function Bio() {
                 </article>
     </section>
 
+    <section className="jobs">
+
+                
+
+                <article className ="jobs">
+                    <h2>Current Employment</h2>
+                    <h3>Save-A-Lot Distribution Center
+                        <Image src={sal} alt="two pallets of groceries ready to be wrapped on a electric riding pallet jack"></Image>
+                    </h3>    
+                    <h4> My current workplace is Save-A-Lot Distribution center.</h4>
+                    <p>As an order selector my job resposibilities are grabbing the case items for the order given to me through a vocollect headset, stacking them on a pallet so that they will reach their destination, wrapping the finished pallets, labeling them with a shipping label, and then dropping them off at the correct dock door. I have also been a forklift operator.
+                        I have been employed with Save-A-Lot since 2019. I really enjoy what I do and Save-A-Lot is a great company to work for and when I make my transition into the field of web development it will be bittersweet. It will be graciously welcomed though!
+                    </p>
+                </article>
+
+    </section>
+</div>
+    
+
+
+
     <footer>
+
+      
+        <h2>Thank you for taking the time to peruse my portfolio</h2>
         <section className ="contact-info" id="contact-info">
+          
           <h2>Contact Info</h2>
 
           <ul>
@@ -65,12 +103,10 @@ export default function Bio() {
 
           </section>
 
-          <h2>Thank you for taking the time to peruse my portfolio</h2>
           <h3 className="sincerely">Sincerely- Dillin Helsley</h3>
     </footer>
 
 
-</main>
-    
+  </main>
   )
 }

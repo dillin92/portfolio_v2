@@ -70,6 +70,8 @@ header nav ul li {
   padding: 20px;
   font-size: 30px;
 }
+
+
 .span {
   color: limegreen;
 }
@@ -80,11 +82,13 @@ header nav a {
 header nav a:hover {
   background-color: rgb(128, 0, 128, 0.15);
   border-radius: 25%;
+  color: limegreen;
 }
 
 /* start footer */
 footer {
   background-color: rgb(104, 103, 103);
+  padding: 20px;
   
 }
 
@@ -93,8 +97,8 @@ footer h2 {
 }
 
 .contact-info {
-  margin-top: 950px;
   text-align: center;
+  
 }
 
 .contact-info ul {
@@ -116,6 +120,7 @@ footer h2 {
 
 .contact-info a:hover {
   color: limegreen;
+  background-color: rgb(128, 0, 128, 0.15)
 }
 
 
@@ -135,12 +140,13 @@ footer h2 {
   background-color: rgb(104, 103, 103, 0.85);
   flex: 1 80%;
   text-align: center;
+  padding: 20px;
+  padding-bottom: 135px;
 }
 
 .portfolio h1 {
   text-align: center;
   padding: 50px;
-  margin-right: 130px;
 }
 
 .application {
@@ -150,7 +156,6 @@ footer h2 {
 
 .portfolio h2 {
   text-align: center;
-  margin-right: 120px;
   padding: 20px;
 }
 
@@ -165,6 +170,7 @@ footer h2 {
   display: inline;
   position: relative;
   margin: 20px;
+  padding: 20px;
 }
 
 .portfolio a img:hover {
@@ -181,7 +187,8 @@ footer h2 {
 img {
   height: 300px;
   width: 550px;
-  padding: 25px;
+  padding: 15px;
+  border-radius: 50px;
 }
 
 .flexbox {
@@ -220,19 +227,16 @@ img {
 /* Experience */
 .experience {
   background-color: rgb(128, 128, 128, 0.5);
-  display: inline-block;
+  display: flex;
 }
 
 .experience h2 {
   text-align: center;
-  margin-right: 120px;
   padding: 20px;
-  margin: 0 0 0 10px;
 }
 
 .experience h3 {
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .experience a img {
@@ -257,18 +261,14 @@ img {
 .jobs {
   background-color: grey;
   float: right;
-  height: 981px;
-  width: 763px;
 }
 
 .jobs h2 {
   text-align: center;
-  padding: 20px;
 }
 
 .jobs h3 {
   text-align: center;
-  padding-top: 35px;
 }
 
 .jobs h4 {
@@ -280,9 +280,7 @@ img {
 }
 
 .jobs img {
-  height: 600px;
   border-radius: 15%;
-  margin-left: 135px;
 }
 
 footer {

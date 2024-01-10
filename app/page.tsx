@@ -71,6 +71,8 @@ export default function Home() {
      </section>
 
      <footer>
+
+     <h2>Thank you for taking the time to peruse my portfolio</h2>
         <section className ="contact-info" id="contact-info">
           <h2>Contact Info</h2>
 
@@ -82,9 +84,9 @@ export default function Home() {
 
           </section>
 
-          <h2>Thank you for taking the time to peruse my portfolio</h2>
+         
           <h3 className="sincerely">Sincerely- Dillin Helsley</h3>
-      </footer>
+     </footer>
       
 
     </main>
