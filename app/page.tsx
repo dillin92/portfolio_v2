@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import github from '../public/Screenshot (6).png';
 import horiseon from '../public/Screenshot (10).png';
 import runbuddy from '../public/Screenshot (8).png';
@@ -11,21 +10,21 @@ export default function Home() {
     <main className="">
       <header>
         <h1>
-          <Link href={"/"} className="title">Dil<span className="span">lin Hels</span>ley</Link>
+          <a href={"/"} className="title">Dil<span className="span">lin Hels</span>ley</a>
         </h1>
       
         <nav>
           <ul>
               <li>
-                  <Link href="/">Portfolio</Link>
+                  <a href="/">Portfolio</a>
               </li>
 
               <li>
-                  <Link href={"/bio"}>Bio</Link>
+                  <a href={"/bio"}>Bio</a>
               </li>
 
               <li>
-                  <Link href="#contact-info">Contact</Link>
+                  <a href="#contact-info">Contact</a>
               </li>
           </ul>
         </nav>
@@ -79,7 +78,7 @@ export default function Home() {
           <ul>
             <li><strong>Email:</strong> <a href="https://dillin970@gmail.com">dillin970@gmail.com</a></li>
             <li><strong>Github:</strong> <a href="https://github.com/dillin92">github.com/dillin92</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dillin-helsley-821668208/">https://www.linkedin.com/in/dillin-helsley-821668208/</a></li>
+            <li><strong>aedIn:</strong> <a href="https://www.aedin.com/in/dillin-helsley-821668208/">https://www.aedin.com/in/dillin-helsley-821668208/</a></li>
           </ul>
 
           </section>
