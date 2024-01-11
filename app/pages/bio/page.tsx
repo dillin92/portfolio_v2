@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import snhu from '../../public/SNHU.png'
-import butler from '../../public/butler.png';
-import sal from '../../public/save-a-lot.jpg';
+import snhu from '../../../public/SNHU.png'
+import butler from '../../../public/butler.png';
+import sal from '../../../public/save-a-lot.jpg';
 import Link from 'next/link';
 
 export default function Bio() {

@@ -20,7 +20,7 @@ export default function Home() {
               </li>
 
               <li>
-                  <a href={"/bio"}>Bio</a>
+                  <a href={"/pages/bio"}>Bio</a>
               </li>
 
               <li>
